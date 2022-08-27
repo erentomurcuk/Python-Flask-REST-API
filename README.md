@@ -59,6 +59,20 @@ Small note for Windows Users: At first I was trying to send requests with `Pytho
 
 ![Python Request](https://github.com/erentomurcuk/Python-Flask-REST-API/blob/main/imgs/requests_example.jpg)
 
+# How to run the server
+
+Open a terminal window in the repository folder and run:
+
+Windows:
+```
+python.exe .\main.py
+```
+
+Linux/macOS:
+```
+python3 main.py
+```
+
 ## Licence
 
 The MIT Licence - Check LICENCE.md for more information.
