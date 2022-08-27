@@ -35,6 +35,16 @@ Install all dependencies (listed):
 pip install -r dependencies-listed.txt
 ```
 
-## Available API requests
+### Available API requests
 
-- 
+- GET
+- PUT
+- PATCH
+- DELETE
+
+### How to send data
+
+Data is sent via JSON to the server.
+I am using Postman myself, and here is an example image:
+
+![Postman](https://github.com/erentomurcuk/Python_Flask_REST_API/blob/main/imgs/postman_example.jpg?raw=true)
