@@ -1,9 +1,9 @@
-# Python_Flask_REST_API
+# Python Flask REST API
  Python + Flask REST API
 
  This repository was solely built for learning purposes.
  
- The code has been written with the help of [Tech with Tim](https://www.youtube.com/c/TechWithTim)'s video: [Python REST API Tutorial - Building a Flask REST API](https://www.youtube.com/watch?v=GMppyAPbLYk)
+ This code has been written with the help of [Tech with Tim](https://www.youtube.com/c/TechWithTim)'s video: [Python REST API Tutorial - Building a Flask REST API](https://www.youtube.com/watch?v=GMppyAPbLYk)
 
 
 ## Dependencies
@@ -47,4 +47,26 @@ pip install -r dependencies-listed.txt
 Data is sent via JSON to the server.
 I am using Postman myself, and here is an example image:
 
-![Postman](https://github.com/erentomurcuk/Python_Flask_REST_API/blob/main/imgs/postman_example.jpg?raw=true)
+![Postman Request](https://github.com/erentomurcuk/Python-Flask-REST-API/blob/main/imgs/postman_example.jpg)
+
+Make sure that you use
+
+```
+'Content-Type': 'application/json'
+```
+
+Small note for Windows Users: At first I was trying to send requests with `Python` with the use of `requests` package. When you are sending requests that way, make sure you use double-quotes only and put a `\` before the `"` so that it will work correctly. An image is available for an example below.
+
+![Python Request](https://github.com/erentomurcuk/Python-Flask-REST-API/blob/main/imgs/requests_example.jpg)
+
+## Licence
+
+The MIT Licence
+
+Copyright 2022 erentomurcuk
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
